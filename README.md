@@ -1,1 +1,1 @@
-Proyecto con bootstrap
+Proyecto de un portafolio con bootstrap
