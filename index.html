@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Efrain Aguilar" />
+    <meta name="keywords" content="html. css, bootstrap" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Efrain Aguilar"
+    />
+    <!-- title -->
+    <title>Mí portafolio</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- iconos de bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Unlock&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- barra de navegación -->
+    <nav id="inicio" class="navbar navbar-expand-md navbar-light navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-Toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Toggler">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.png" width="50" alt="Logo de la pagina"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  aria-current="page" href="#contacto">Contacto</a
+              >
+            </li>
+          </ul>
+          <div
+            class="redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+          >
+            <a
+              href="https://www.tiktok.com/@efrainaguilar96"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/efrainaguilar280324/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/feed/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Efrain-start"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="mailto:efra@efrainaguilar.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- seccion hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador"
+          src="img/My.jpg"
+          alt="Imagen de Efrain Aguilar"
+        />
+        <h1>Hola, soy Efrain Aguilar</h1>
+        <h2>
+          Construyo interfaces interacivas para aplicaciones web complejas
+        </h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-img img-fluid"
+          src="img/work.jpg"
+          alt="monitores y area de trabajo"
+        />
+      </div>
+    </section>
+
+    <!-- sobre mí -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Efrain Aguilar</h2>
+        <p class="seccion-texto">
+          Soy un programador frontend apasionado con una fuerte afinidad por la
+          creación de aplicaciones web. Disfruto programar y me apasiona el
+          proceso de crear aplicaciones web complejas.
+        </p>
+      </div>
+    </section>
+
+    <!-- experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Interfaz de Usuario</p>
+            <p>
+              Diseño atractivo y funcional para mejorar la experiencia en tu
+              aplicación
+            </p>
+          </div>
+          <!-- articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Aplicaciones Web</p>
+            <p>
+              Desarrollo de aplicaciones web que son intuitivas y fáciles de
+              usar para todos los usuarios.
+            </p>
+          </div>
+          <!-- estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Usabilidad y Rendimiento</p>
+            <p>
+              Optimización de rendimiento y usabilidad para garantizar una
+              experiencia fluida y agradable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h3 class="seccion-description">
+        Estos son algunos proyectos que he creado
+      </h3>
+      <!-- galería de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen1.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen2.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen3.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen4.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen5.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="img/imagen6.jpg" alt="proyecto1" />
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://efrainaguilar.efrainaguilar.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos de tu proyecto!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:efra@efrainaguilar.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img class="footer-logo" src="img/logo.png" alt="" />
+      <p class="footer-texto text-center">
+        Estoy aquí para ayudarte. <br />Creemos un proyecto juntos
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://www.tiktok.com/@efrainaguilar96"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-tiktok"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/efrainaguilar280324/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/feed/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/Efrain-start"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="mailto:efra@efrainaguilar.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Efrain Aguilar (2024) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
