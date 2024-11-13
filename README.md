@@ -1,1 +1,1 @@
-Proyecto de un portafolio con bootstrap
+Portfolio project with HTML, CSS and bootstrap
